@@ -1,6 +1,12 @@
 spring:
   application:
     name: blog-genius-ai-backend
+  # mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/blog_genius_ai
+    username: root
+    password: mysql123
 server:
   port: 8123
   servlet:
@@ -16,3 +22,4 @@ knife4j:
   enable: true
   setting:
     language: zh_cn
+
