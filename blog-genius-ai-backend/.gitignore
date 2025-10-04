@@ -32,4 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
+### CUSTOM
 **/generateresult/
+application-local.yml
+tmp
